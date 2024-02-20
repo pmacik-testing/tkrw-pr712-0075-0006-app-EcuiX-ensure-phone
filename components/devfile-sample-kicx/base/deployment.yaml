@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-kicx
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0006-tenant/tkrw-pr712-0075-0006-app/devfile-sample-kicx@sha256:aa939c6170f0b3fbd61fc826217fda787f2171b8686a7d049f41f6810350ed06
         name: my-nodejs
         ports:
         - containerPort: 3001
